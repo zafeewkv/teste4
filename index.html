@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js"></script> <!-- Remove a inclusão de java2.js -->
+</head>
+<body>
+    <header>
+        <h1>Aniso</h1>
+    </header>
+    <main>
+        <form id="loginForm" method="post">
+            <label for="year">Ano:</label>
+            <select id="year" name="year" required>
+                <option value="">Selecione seu ano</option>
+                <option value="2024">2024</option>
+            </select>
+
+            <label for="period">Período:</label>
+            <select id="period" name="period" required>
+                <option value="">Selecione seu período</option>
+                <option value="manha">MANHÃ</option>
+                <option value="tarde">TARDE</option> 
+                <option value="noite">NOITE</option>
+            </select>
+
+            <label for="classGroup">Turma:</label>
+            <select id="classGroup" name="classGroup" required>
+                <option value="">Selecione sua turma</option>
+                <option value="INF">INFORMATICA</option>
+            </select>
+
+            <button type="submit" disabled="TRUE">Entrar</button> 
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</body>
+</html>
